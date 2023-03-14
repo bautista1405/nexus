@@ -81,7 +81,7 @@ const TwoTiersPricing = () => {
                 WHAT CAN YOU EXPECT FROM US
               </Text> */}
               
-                <HStack  spacing={3} mb={{base: 8, md: 20}}>
+                <HStack  spacing={3} mb={{base: 8, md: 24}}>
                   {/* <Icon as={BiCheck} h={4} w={4} color="green.500" /> */}
                   <Text fontSize="lg" color='#e9ecef'>
                   We help you find the right talent, and once we make the match, we take care of the entire hiring process, 

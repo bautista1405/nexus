@@ -97,13 +97,15 @@ import {
         color={useColorModeValue('gray.700', 'gray.200')}>
         <Container as={Stack} maxW={'6xl'} py={10}>
           <SimpleGrid
-            columns={{ sm: '1fr 1fr', md: '3' }}
-            spacing={{sm: 8, md: 48, lg: 56, xl: 60}}>
-            <Stack>
+            columns={{ sm: '1fr 1fr', md: '2', lg: '3', xl: '3' }}
+            spacing={{sm: 8, md: 48, lg: 40, xl: 60}}
+            ml={5}
+          >
+            <Stack ml={{base: 0, sm: 0, md: 0, lg: 5, xl: 0}}>
               <Box>
                 {/* <Logo color={useColorModeValue('gray.700', 'white')} /> */}
                 <Image src="/Nexus.png" width={200}  height={32}
-                  viewBox="0 0 120 28" 
+                   
                 />
               </Box>
               <Stack fontSize='sm'>
@@ -126,7 +128,7 @@ import {
                 </SocialButton>
               </Stack>
             </Stack>
-            <Stack align={'flex-start'} pt={20} color='#e9ecef'>
+            <Stack align={'flex-start'} pt={20} color='#e9ecef'  ml={{base: 0, sm: 0, md: 0, lg: 10, xl: 0}}>
               
               <Text color='#c77dff' fontSize={20}>Company</Text>
               
