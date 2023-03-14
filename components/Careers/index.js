@@ -21,7 +21,7 @@ import { FaRegComment, FaRegHeart, FaRegEye } from 'react-icons/fa';
 const articles = [
   {
     title: 'Loren Ipsum',
-    link: '',
+    link: '/job-description/test',
     created_at: '21 Jan 2022',
     meta: {
       reactions: 225,
@@ -92,10 +92,14 @@ const CareersList = () => {
                 justifySelf="flex-end"
                 alignItems="center"
               >
-               <Button 
+               <Link 
+                href={article.link}
+                borderRadius={5}
+                p={2}
+                fontWeight={600}
                 bgGradient="linear(to-l, #9d4edd,#c77dff)"
                 _hover={{ bgGradient: 'linear(to-l, #c77dff,#9d4edd)', opacity: 0.9 }} 
-               >Apply</Button>
+               >View details</Link>
               </Stack>
             </Grid>
             {articles.length - 1 !== index && <Divider m={0} />}
