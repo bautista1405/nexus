@@ -130,7 +130,7 @@ export default function WfWf() {
           
           <Link href="/">
             {/* <Image src={Logo} alt="logo" width="100px" height="100px" style={{cursor: 'pointer'}} /> */}
-            <Image src="/Nexuslat.png" width={200} height={0} />
+            <Image src="/Nexus.png" width={200} height={0} />
           </Link>
           
           {/* <Spacer /> */}

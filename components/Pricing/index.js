@@ -55,7 +55,7 @@ const TwoTiersPricing = () => {
             '0 4px 6px rgba(9, 17, 28, 0.4)'
           )
         }}
-        h={{base: 550, md: 520}}
+        h={{base: 550, md: 450}}
         >
           <Box p={6} textAlign='center'>
             <chakra.h2 fontSize="2xl" fontWeight="400" color='#e9ecef' bg="linear-gradient(transparent 0%, #a988c9 99%)">
@@ -81,7 +81,7 @@ const TwoTiersPricing = () => {
                 WHAT CAN YOU EXPECT FROM US
               </Text> */}
               
-                <HStack  spacing={3} h={350} mb={{base: 8, md: 0}}>
+                <HStack  spacing={3} mb={{base: 8, md: 20}}>
                   {/* <Icon as={BiCheck} h={4} w={4} color="green.500" /> */}
                   <Text fontSize="lg" color='#e9ecef'>
                   We help you find the right talent, and once we make the match, we take care of the entire hiring process, 

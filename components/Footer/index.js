@@ -102,7 +102,7 @@ import {
             <Stack>
               <Box>
                 {/* <Logo color={useColorModeValue('gray.700', 'white')} /> */}
-                <Image src="/Nexus.svg" width={200}  height={32}
+                <Image src="/Nexus.png" width={200}  height={32}
                   viewBox="0 0 120 28" 
                 />
               </Box>
