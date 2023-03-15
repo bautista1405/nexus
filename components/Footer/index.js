@@ -97,7 +97,7 @@ import {
         color={useColorModeValue('gray.700', 'gray.200')}>
         <Container as={Stack} maxW={'6xl'} py={10}>
           <SimpleGrid
-            columns={{ sm: '1fr 1fr', md: '2', lg: '3', xl: '3' }}
+            columns={{ base: '1fr 1fr', sm: '2', md: '2', lg: '3', xl: '3' }}
             spacing={{sm: 8, md: 48, lg: 40, xl: 60}}
             ml={5}
           >
@@ -108,7 +108,7 @@ import {
                    
                 />
               </Box>
-              <Stack fontSize='sm'>
+              <Stack fontSize='sm' w={220}>
                 <chakra.span color='#e9ecef' bg="linear-gradient(transparent 70%, #c77dff 100%)">
                   © 2023 Nexus. All rights reserved
                 </chakra.span>

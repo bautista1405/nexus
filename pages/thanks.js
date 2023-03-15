@@ -8,7 +8,7 @@ const Thanks = () => {
             <Flex justifyContent='center' alignItems='center' fontSize={20}>
 
                 <Stack>
-                    <Text> Thanks for your email. Will return to you soon! </Text>
+                    <Text> Thanks for your email. We'll get back to you soon! </Text>
 
                     <Link href='/'>
                         
