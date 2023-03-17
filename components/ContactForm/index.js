@@ -15,28 +15,7 @@ import {
   Icon,
   Divider
 } from '@chakra-ui/react';
-// Here we have used react-icons package for the icons
-import { GoLocation } from 'react-icons/go';
-import { BsPhone } from 'react-icons/bs';
-import { HiOutlineMail } from 'react-icons/hi';
 
-const contactOptions = [
-  {
-    label: 'Address',
-    value: 'A108 Adam Street, NY 535022, USA',
-    icon: GoLocation
-  },
-  {
-    label: 'PHONE NUMBER',
-    value: '+1 5589 55488 55',
-    icon: BsPhone
-  },
-  {
-    label: 'EMAIL',
-    value: 'info@example.com',
-    icon: HiOutlineMail
-  }
-];
 
 const ContactForm = () => {
 

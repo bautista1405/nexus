@@ -132,7 +132,7 @@ const HeroSection = () => {
           </HStack>
         </Stack>
         <Box ml={{ base: 0, md: 5 }} pos="relative">
-          <DottedBox />
+          {/* <DottedBox /> */}
           <Image
             loading='lazy'
             width={{base: '100%', md: 500}}

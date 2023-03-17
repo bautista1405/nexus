@@ -84,31 +84,31 @@ export default function WfWf() {
       />
 
       <Link href='/#us'>
-        <Button w="full" variant="ghost" leftIcon={<FcAbout />}>
+        <Button w="full" variant="ghost" leftIcon={<FcAbout />} onClick={mobileNav.onClose}>
           About
         </Button>
       </Link>
 
       <Link href='/#talent'>
-        <Button w="full" variant="ghost" leftIcon={<RiTeamLine />}>
+        <Button w="full" variant="ghost" leftIcon={<RiTeamLine />} onClick={mobileNav.onClose}>
           Talent
         </Button>
       </Link>
 
       <Link href='/#pricing'>
-        <Button w="full" variant="ghost" leftIcon={<ImPriceTags />}>
+        <Button w="full" variant="ghost" leftIcon={<ImPriceTags />} onClick={mobileNav.onClose}>
           Pricing
         </Button>
       </Link>
 
       <Link href='/careers'>
-        <Button w="full" variant="ghost" leftIcon={<CgNotes />}>
+        <Button w="full" variant="ghost" leftIcon={<CgNotes />} onClick={mobileNav.onClose}>
         Carrers
         </Button>
       </Link>
 
       <Link href='/blog'>
-        <Button w="full" variant="ghost" leftIcon={<SiGoogleclassroom />}>
+        <Button w="full" variant="ghost" leftIcon={<SiGoogleclassroom />} onClick={mobileNav.onClose}>
           Blog
         </Button>
       </Link>
@@ -125,7 +125,7 @@ export default function WfWf() {
   return (
     <React.Fragment>
       <chakra.header>
-        <Flex alignItems="center" justifyContent={{base: "space-between", md:"space-around"}} bg='blackAlpha.900'>
+        <Flex alignItems="center" justifyContent={{base: "space-between", md:"space-around"}} bg='blackAlpha.900' pr={10}>
           
           
           <Link href="/">
@@ -135,7 +135,7 @@ export default function WfWf() {
           
           {/* <Spacer /> */}
 
-          <Box display={{ base: "none", md: "inline-flex" }} pr={{base: 0, sm: 0, md: 5, lg: 20, xl: 20}} mt={0} >
+          <Box display={{ base: "none", md: "inline-flex" }} pr={{base: 0, sm: 0, md: 5, lg: 10, xl: 10}} mt={0} >
             <Flex alignItems="center" justifyContent="center">
               <Link href='/#us'>
                 <Button variant='link' color='#e9ecef' _hover={{color:'#c77dff'}} mr={8}>

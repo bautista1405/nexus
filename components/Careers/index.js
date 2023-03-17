@@ -21,7 +21,7 @@ import { FaRegComment, FaRegHeart, FaRegEye } from 'react-icons/fa';
 const articles = [
   {
     title: 'Loren Ipsum',
-    link: '/job-description/test',
+    link: '/job-description/testjd',
     created_at: '21 Jan 2022',
     meta: {
       reactions: 225,
@@ -76,20 +76,14 @@ const CareersList = () => {
                 <chakra.h3  fontWeight="bold" fontSize="lg">
                   {article.title}
                 </chakra.h3>
-                <chakra.p
-                  fontWeight="medium"
-                  fontSize="sm"
-                  color='gray.600'
-                >
-                  Published: {article.created_at}
-                </chakra.p>
+                
               </Box>
               
               <Stack
                 spacing={2}
                 direction="row"
                 fontSize={{ base: 'sm', sm: 'md' }}
-                justifySelf="flex-end"
+                justifySelf={{base: "flex-start", md: "flex-end"}}
                 alignItems="center"
               >
                <Link 

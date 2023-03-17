@@ -28,6 +28,10 @@ import {
   import { BiMailSend } from 'react-icons/bi';
   import {BsLinkedin} from 'react-icons/bs'
 
+  
+import { WhatsAppWidget } from 'react-whatsapp-widget';
+import 'react-whatsapp-widget/dist/index.css';
+
   import ContactForm from '../ContactForm';
   
   const Logo = (props) => {
@@ -182,6 +186,7 @@ import {
             </Stack>
           </SimpleGrid>
         </Container>
+        <WhatsAppWidget companyName='Nexus' phoneNumber="5491138546381" />
       </Box>
     );
   }
